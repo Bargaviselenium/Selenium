@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Bargavi]">
+  <test name="Sample(failed)">
+    <classes>
+      <class name="testng.AfterTestAndBeforeTet">
+        <methods>
+          <include name="appLogout"/>
+          <include name="appLaunch"/>
+        </methods>
+      </class> <!-- testng.AfterTestAndBeforeTet -->
+      <class name="testng.AdminLoginTest">
+        <methods>
+          <include name="appLogout"/>
+        </methods>
+      </class> <!-- testng.AdminLoginTest -->
+    </classes>
+  </test> <!-- Sample(failed) -->
+</suite> <!-- Failed suite [Bargavi] -->

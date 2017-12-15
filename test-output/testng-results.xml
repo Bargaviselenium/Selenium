@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Bargavi" duration-ms="11945" started-at="2017-12-06T02:35:01Z" finished-at="2017-12-06T02:35:13Z">
+    <groups>
+    </groups>
+    <test name="Sample" duration-ms="11945" started-at="2017-12-06T02:35:01Z" finished-at="2017-12-06T02:35:13Z">
+      <class name="testng.EmpList">
+        <test-method status="PASS" signature="empList()[pri:0, instance:testng.EmpList@4af1b50]" name="empList" duration-ms="3270" started-at="2017-12-06T08:05:08Z" finished-at="2017-12-06T08:05:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- empList -->
+      </class> <!-- testng.EmpList -->
+      <class name="testng.AddEmp">
+        <test-method status="PASS" signature="appLaunch()[pri:0, instance:testng.AddEmp@63ab5267]" name="appLaunch" is-config="true" duration-ms="9687" started-at="2017-12-06T08:04:51Z" finished-at="2017-12-06T08:05:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appLaunch -->
+        <test-method status="PASS" signature="appLogin()[pri:0, instance:testng.AddEmp@63ab5267]" name="appLogin" is-config="true" duration-ms="2807" started-at="2017-12-06T08:05:01Z" finished-at="2017-12-06T08:05:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appLogin -->
+        <test-method status="PASS" signature="empAdd()[pri:0, instance:testng.AddEmp@63ab5267]" name="empAdd" duration-ms="4492" started-at="2017-12-06T08:05:04Z" finished-at="2017-12-06T08:05:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- empAdd -->
+        <test-method status="PASS" signature="appLogout()[pri:0, instance:testng.AddEmp@63ab5267]" name="appLogout" is-config="true" duration-ms="1347" started-at="2017-12-06T08:05:12Z" finished-at="2017-12-06T08:05:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appLogout -->
+        <test-method status="PASS" signature="appClose()[pri:0, instance:testng.AddEmp@63ab5267]" name="appClose" is-config="true" duration-ms="15" started-at="2017-12-06T08:05:13Z" finished-at="2017-12-06T08:05:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appClose -->
+      </class> <!-- testng.AddEmp -->
+    </test> <!-- Sample -->
+  </suite> <!-- Bargavi -->
+</testng-results>

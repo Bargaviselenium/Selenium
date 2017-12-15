@@ -1,0 +1,9 @@
+
+<suite name="Bargavi">
+  <test name="Sample">
+    <classes>
+      <class name="testng.AddEmp"/>
+       <class name="testng.EmpList"/>
+    </classes>
+  </test> 
+</suite> 
